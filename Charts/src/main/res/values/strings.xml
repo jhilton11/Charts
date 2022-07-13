@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="retry">Retry</string>
+    <string name="user_image">User image</string>
+    <string name="favourites">Favourites</string>
+    <string name="clear_all">Clear All</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+</resources>

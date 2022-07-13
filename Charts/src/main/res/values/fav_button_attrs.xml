@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FavouriteButton">
+        <attr name="setSelected" format="boolean"/>
+        <attr name="setColor" format="color"/>
+    </declare-styleable>
+</resources>

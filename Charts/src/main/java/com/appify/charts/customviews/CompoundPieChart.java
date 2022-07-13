@@ -37,10 +37,6 @@ public class CompoundPieChart extends LinearLayout {
 
     private void init(Context context) {
         inflate(context, R.layout.compound_pie_chart, this);
-        pieChart = findViewById(R.id.pie_chart);
-        recyclerView = findViewById(R.id.recyclerview);
-        dataList = new ArrayList<>();
-        colors = Constants.getColors();
         layoutManager = new LinearLayoutManager(context.getApplicationContext());
     }
 
@@ -48,6 +44,10 @@ public class CompoundPieChart extends LinearLayout {
     protected void onFinishInflate() {
         super.onFinishInflate();
 
+        pieChart = findViewById(R.id.pie);
+        recyclerView = findViewById(R.id.recyclerview);
+        dataList = new ArrayList<>();
+        colors = Constants.getColors();
         recyclerView.setLayoutManager(layoutManager);
     }
 

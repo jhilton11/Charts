@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.11875" />
         <entry key="Charts/src/main/res/layout/chart_row_data.xml" value="0.182518115942029" />
         <entry key="Charts/src/main/res/layout/compound_pie_chart.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>

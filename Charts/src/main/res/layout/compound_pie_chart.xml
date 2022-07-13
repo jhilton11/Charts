@@ -12,7 +12,7 @@
         android:layout_gravity="center_vertical"/>
 
     <com.appify.charts.customviews.PieChart
-        android:id="@+id/pie_chart"
+        android:id="@+id/pie"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"

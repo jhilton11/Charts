@@ -68,15 +68,20 @@ public class PieChart extends View {
 
         midX = getWidth()/2;
         midY = getHeight()/2;
-        smallRadius = midY - 60;
+        smallRadius = midY - 75;
         largeRadius = midY;
 
         oval.set(0, 0, midX+largeRadius, midY+largeRadius);
 
         if (data.size()>0) {
             float startAngle = -90;
-            float sweepAngle = 360/(float)data.size();
+            float total = 0;
             for (int i=0; i<data.size(); i++) {
+                total += data.get(i).getValue();
+            }
+
+            for (int i=0; i<data.size(); i++) {
+                float sweepAngle = (float) ((360*data.get(i).getValue())/total);
                 outerCirclePaint.setColor(colors.get(i));
                 canvas.drawArc(oval, startAngle, sweepAngle, true, outerCirclePaint);
                 startAngle += sweepAngle;

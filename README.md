@@ -1,2 +1,2 @@
 # Charts
-This is a custom view for displaying data in a pie chart.
+This is an Android custom view for displaying data in a pie chart.
